@@ -1,5 +1,5 @@
 Summary:	Pack of styles for fluxbox
-Summary(pl):	Zestaw styli dla fluxbox
+Summary(pl):	Zestaw styli dla fluxboksa
 Name:		fluxbox-styles
 Version:	1.0
 Release:	2
@@ -15,13 +15,11 @@ This is a set of various styles for fluxbox taken from original
 fluxbox and modified by havner.
 
 %description -l pl
-Zestaw ró¿nych styli dla fluxboxa wziêtych z oryginalnego
-fluxboxa i zmodyfikowanych przez havner.
+Zestaw ró¿nych styli dla fluxboksa wziêtych z oryginalnego
+fluxboksa i zmodyfikowanych przez havnera.
 
 %prep
 %setup -q -n %{name}
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
