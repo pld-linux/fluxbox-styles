@@ -2,19 +2,21 @@ Summary:	Pack of styles for fluxbox
 Summary(pl):	Zestaw styli dla fluxbox
 Name:		fluxbox-styles
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Themes
 Source0:	http://ep09.pld-linux.org/~havner/%{name}.tar.bz2
-# Source0-md5:	368b7e351e0f39fc21acb07e044eb5a6
+# Source0-md5:	05e1eac69ffef0364dfed1863741fcb7
 Requires:	fluxbox
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is a set of various styles for fluxbox.
+This is a set of various styles for fluxbox taken from original
+fluxbox and modified by havner.
 
 %description -l pl
-Zestaw ró¿nych styli dla fluxboxa.
+Zestaw ró¿nych styli dla fluxboxa wziêtych z oryginalnego
+fluxboxa i zmodyfikowanych przez havner.
 
 %prep
 %setup -q -n %{name}
