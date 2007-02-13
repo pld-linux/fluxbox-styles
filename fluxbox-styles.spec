@@ -1,5 +1,5 @@
 Summary:	Pack of styles for fluxbox
-Summary(pl.UTF-8):   Zestaw styli dla fluxboksa
+Summary(pl.UTF-8):	Zestaw styli dla fluxboksa
 Name:		fluxbox-styles
 Version:	1.0
 Release:	2
